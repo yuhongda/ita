@@ -1,0 +1,56 @@
+﻿<%@ page language="C#" autoeventwireup="true" inherits="Game, ITA_WebSite_deploy" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>酒店抽取活动</title>
+    <style type="text/css">
+        body{margin:0;padding:0;font-family:"Microsoft YaHei" ! important;font-size:12px;background:#000;color:#fff;}
+        #wrapper{width:1000px;height:680px;background:url(images/game/bg.jpg) top left no-repeat;margin:0 auto; position:relative;}
+        #phone{position:relative;top:505px; left:185px;width:175px;background:transparent;border:0;}
+        #go{display:block; width:96px;height:32px; position:relative;top:480px;left:392px;}
+        #choosing{z-index:9999; position:relative;top:200px; left:250px;width:429px; height:240px;background:url(images/game/choosing.png) top left no-repeat;_background:url(images/game/choosing.gif) top left no-repeat;}
+        #weibo{position:relative;top:187px; left:145px;}
+        #list{width:250px;height:450px;position:absolute;top:168px; left:668px; overflow:auto; }
+        #desc{width:530px;height:250px;position:absolute;top:165px; left:65px; overflow:hidden; }
+        #desc p{ text-indent:24px;}
+        .table{width:100%;}
+    </style>
+    <script type="text/javascript" src="<%=ResolveUrl("~/Scripts/jquery-1.7.1.min.js") %>"></script>
+    <script type="text/javascript">
+        $(function () {
+            if (typeof (JSON) == 'undefined') {
+                var json2 = '<%=ResolveUrl("~/Scripts/json2.js") %>">';
+                $('head').append($('<script type="text/javascript" src="' + json2 + '"'));
+            }
+        });
+    </script>
+    <script type="text/javascript" src="<%=ResolveUrl("~/Scripts/game-min.js") %>"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="wrapper">
+        <input id="phone" type="text" /><a href="#" id="go"></a>
+        <div id="choosing" style="display:none;"></div>
+        <div id="list"></div>
+        <div id="desc">
+            <p>感谢您热情参与“‘微’创作，‘WE’酷炫——尚酷东区俱乐部成立仪式暨横店微电影创作大集结”活动，因当地酒店房间数量有限，此次活动我们将分别入住2家酒店——横店国贸大厦、横店国际会议中心大酒店。为此特邀请各位参与此次酒店分配活动，我们将按照系统自动分配的酒店安排各位在横店的住宿。</p>
+            <p>感谢您的支持！</p>
+            <p>活动说明如下：</p>
+            <ul class="ul_dot">
+                <li>活动时间：2012年6月6日9:00-2012年6月6日18:00</li>
+                <li>活动规则：
+                    <ol>
+                        <li>请使用指定联系人手机号码参与酒店分配活动</li>
+                        <li>每个经销商均只有一次参与机会</li>
+                        <li>在您点击确认后，系统将随机分配入住酒店，并显示在页面中</li>
+                    </ol>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

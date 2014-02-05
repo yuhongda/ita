@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="" title="首页" description="首页" resourceKey="1" roles="0,1">
+
+    <siteMapNode url="" title="作品管理" description="作品管理" resourceKey="1" roles="0">
+      <siteMapNode url="~/Management/Projects/Default.aspx" title="项目维护" description="项目维护" resourceKey="1" roles="0" />
+      <siteMapNode url="~/Management/Works/Default.aspx" title="作品维护" description="作品维护" resourceKey="1" roles="0" />
+    </siteMapNode>
+
+    <siteMapNode url="" title="用户管理" description="用户管理" resourceKey="1" roles="0">
+      <siteMapNode url="~/Management/Users/UserList.aspx" title="用户列表" description="用户列表" resourceKey="1" roles="0" />
+    </siteMapNode>
+
+  </siteMapNode>
+</siteMap>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MailServers>
+  <Server status="enable">
+    <ExchangeServer>smtp.gmail.com</ExchangeServer>
+    <Account>itadesign.studio@gmail.com</Account>
+    <Password>ita198123</Password>
+  </Server>
+  <Server status="disabled">
+    <ExchangeServer>ExchangeServer2</ExchangeServer>
+    <Account>Account2</Account>
+    <Password>Password2</Password>
+  </Server>
+</MailServers>

@@ -1,0 +1,347 @@
+﻿/* ITA Design WebSite Style Sheet For Manage */
+
+body 
+{
+	margin:5px;
+	/**/margin-top:0px;
+	padding-bottom:2em;
+	background-color:#FFFFFF;
+	color:#000000;
+	font-family:Tahoma, Helvetica, Arial, Verdana, Sans Serif;
+	/**/border-top:2px solid #01439c;
+}
+
+#header
+{
+	/**/border-top:3px solid #01439c;
+	border-bottom:1px solid #01439c;
+	width:768px;
+	height:80px;
+	background-color:#ffffff;
+}
+
+#header #divLogo
+{
+	float:left;
+	width:160px;
+	height:80px;
+	background-image:url(../images/logo.jpg);
+	background-position:bottom left;
+	background-repeat:no-repeat;
+}
+
+#header .title 
+{
+	float:right;
+	font-size:190%;
+	color:Black;
+	background-color:Transparent;
+	margin-top:0.3em;
+	margin-right:2em;
+	margin-left:.8em;
+	text-align:right;
+}
+
+.breadcrumb 
+{
+	font-size:90%;
+	color:#cccccc;
+	background-color:Transparent;
+	float:right;
+	margin-right:2em;
+	margin-top:0.8em;
+	font-weight:bold;
+}
+
+#header a:link, a:visited
+{
+	color:#01439c;
+}
+
+#shadow
+{
+	background-image:url(../images/management/shadow.jpg);
+	background-position:top left;
+	background-repeat:repeat-x;
+	height:15px;
+	text-align:right;
+	padding-right:30px;
+}
+
+#navigation_shadow
+{
+	background-color:#f2f7fc;
+	
+	top:7em;
+	left:5px;
+	position:absolute;
+	width:200px;
+	/*background-image:url(../images/Management/background/blank.jpg);*/
+	background-position:top left;
+	background-repeat:repeat-y;
+	/*padding-right:2px;*/
+	padding-bottom:2px;
+	border:solid 1px #aaaaaa;
+}
+
+#navigation
+{
+	width:200px;
+	/*top:-3px;*/
+	font-size:70%;
+	/*border:solid 1px #aaaaaa;*/
+	background-color:#72777c;
+}
+
+#navigation img
+{
+    border: 0px;
+    margin-right:10px;
+}
+
+
+#navigation a:hover
+{
+    /*
+	background-color:#01439c;
+	color:#ffffff;
+	font-weight:bold;
+*/
+}
+
+#navigation ul
+{
+	list-style:none;
+	margin:0;
+	padding:0;
+	/*border-bottom:dotted 1px #72777c*/
+}
+
+#navigation li
+{
+	/*border-top:1px solid #ffffff;*/
+	background-color:#bddaf4;
+	font-weight:bold;
+	/*margin-bottom:1px;*/
+}
+
+#navigation li a 
+{
+	display:block;
+	padding: 5px 5px 5px 0.5em;
+	/*border-left:12px solid #01439c;*/
+	/*border-right:1px solid #01439c;*/
+	/*background-color:#01439c;*/
+	color:#333333;
+	text-decoration:none;
+}
+
+#navigation li a:hover
+{
+	display:block;
+	padding: 5px 5px 5px 0.5em;
+	/*border-left:12px solid #01439c;*/
+	/*border-right:1px solid #01439c;*/
+	background-color:#01439c;
+	color:#ffffff;
+}
+
+#navigation ul ul
+{
+	margin-left:12px;
+}
+
+#navigation ul li ul li
+{
+	background-color:#bddaf4;
+	border-top:solid 1px #aaaaaa;
+	font-weight:bold;
+	margin-left:-12px;
+}
+
+#navigation ul li ul li a
+{
+	display:block;
+	padding: 5px 5px 5px 0.5em;
+	/*border-left:12px solid #01439c;*/
+	/*border-right:1px solid #01439c;*/
+	/*background-color:#01439c;*/
+	color:#333333;
+	text-decoration:none;
+}
+
+#navigation ul li ul li a:link
+{
+	display:block;
+	padding: 5px 5px 5px 0.5em;
+	/*border-left:12px solid #01439c;*/
+	/*border-right:1px solid #01439c;*/
+	/*background-color:#01439c;*/
+	color:#333333;
+	text-decoration:none;
+}
+
+#navigation ul li ul li a:visited
+{
+	display:block;
+	padding: 5px 5px 5px 0.5em;
+	/*border-left:12px solid #01439c;*/
+	/*border-right:1px solid #01439c;*/
+	/*background-color:#01439c;*/
+	color:#333333;
+	text-decoration:none;
+}
+
+#navigation ul li ul li a:hover
+{
+	display:block;
+	padding: 5px 5px 5px 0.5em;
+	/*border-left:12px solid #01439c;*/
+	/*border-right:1px solid #01439c;*/
+	background-color:#bddaf4;
+	color:#333333;
+	text-decoration:none;
+}
+
+#navigation ul li ul li ul li
+{
+	border-top:0;
+	border-top:1px solid #ffffff;
+	margin:0;
+	background-color:#f2f7fc;
+	color:#01439c;
+	border-bottom: 1px solid #f2f7fc;
+	margin-left:-12px;
+	/*padding-left:17px;*/
+	font-weight:100;
+}
+
+#navigation ul li ul li ul li a
+{
+	padding-left:24px;
+}
+
+#navigation ul li ul li ul li a:link
+{
+	/*background-color:#d0e1ea;*/
+	padding-left:24px;
+	color:#01439c;
+}
+
+#navigation ul li ul li ul li a:visited
+{
+	/*background-color:#d0e1ea;*/
+	padding-left:24px;
+	color:#01439c;
+}
+
+#navigation ul li ul li ul li a:hover
+{
+	padding-left:24px;
+	background-color:#01439c;
+	color:#ffffff;
+}
+
+
+/* Main Content */
+
+#content 
+{
+	margin-top:1em;
+	margin-left: 20em;
+	margin-right: 2em;
+	font-size:.75em;
+}
+#content h2
+{
+	border-bottom:1px solid #01439c;
+}
+#content a
+{
+	color:#01439c;
+}
+h1 
+{
+	font: 130% Tahoma, Helvetica, Arial, Verdana, Sans Serif;
+	font-weight:bold;
+}
+#content p {
+	font-size: 80%;
+	line-height: 1.6em; 
+}
+
+#content ul {
+	font-size: 80%;
+	line-height: 1.6em; 
+}
+
+.picblock{float:left;width:200px; margin:5px;}
+
+
+.SelectedRowStyle{
+	background-color: Silver;
+} 
+
+.LowUnitsInStockEmphasis 
+{
+	color: Silver;
+}
+
+.ProductPropertyLabel 
+{
+	font-size: larger;
+}
+
+.FooterStyle 
+{
+	background-color: #01439C;
+    color: White;
+    text-align: right;
+}
+
+.SortHeaderRowStyle
+{
+    background-color: #9fd1ed;
+    text-align: left;
+    font-weight: bold;
+    color: White;
+}
+.FloatLeft
+{
+	float: left;
+	width: 33%;
+	padding-right: 10px;
+}
+
+/* Misc */
+.red{color:Red;}
+
+/* GridView Style */
+
+.DataWebControlStyle
+{
+	width:100%;
+}
+.AlternatingRowStyle
+{
+	background-color:#edf8fd;
+	border:0;
+}
+.RowStyle
+{
+	border:0;
+}
+.HeaderStyle
+{
+	background-color:#01439C;
+	color:#ffffff;
+}
+.RowStyle:hover, .AlternatingRowStyle:hover
+{
+	background-color:#dbebf3;
+	color:#01439C;
+}
+.SelectedRowStyle
+{
+	background-color: #dbebf3;
+} 

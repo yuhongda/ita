@@ -1,0 +1,88 @@
+﻿<%@ master language="C#" autoeventwireup="true" inherits="Management_Manage, App_Web_vpbrk8fn" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>ITA Design WebSite Management</title>
+    <link rel="stylesheet" href="../css/ManageStyle.css" type="text/css" />
+    <script type="text/javascript" src="<%=ResolveUrl("~/Scripts/jquery-1.7.1.min.js") %>"></script>
+    <%--<script type="text/javascript" src="<%=ResolveUrl("~/Scripts/jquery-1.7.1-vsdoc.js") %>"></script>--%>
+    <script type="text/javascript" src="<%=ResolveUrl("~/Scripts/pageUtils.js") %>"></script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript">
+        $(function () {
+            $(window).resize(function () { ResizePageManagement(); });
+        });
+        
+</script>
+</head>
+<body>
+    <div id="wrapper">
+        <form id="form1" runat="server">
+        <div id="header">
+            <div id="divLogo"></div>
+            <span class="breadcrumb">
+                <asp:SiteMapPath ID="SiteMapPath1" SiteMapProvider="ManageSiteMap" runat="server">
+                </asp:SiteMapPath>
+            </span>
+        </div>
+        <div id="shadow">
+            
+        </div>
+        <div id="content">
+            <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+            </asp:contentplaceholder>
+        </div>
+        <div id="navigation_shadow">
+            <div id="navigation">
+                <ul>
+                    <asp:Repeater ID="menu" runat="server" DataSourceID="SiteMapDataSource1" EnableViewState="false">
+                        <ItemTemplate>
+                            <li>
+                                <div>
+                                    <asp:HyperLink ID="HyperLink1" NavigateUrl='<%#DataBinder.Eval(Container.DataItem, "Url") %>' runat="server"><img src="<%=ResolveUrl("~/images/management/arrow_right.gif") %>"/><%# HttpUtility.HtmlEncode(DataBinder.Eval(Container.DataItem, "Title").ToString())%></asp:HyperLink>
+                                    <div>
+                                        <ul>
+                                            <asp:Repeater ID="rptLevel1" DataSource='<%#((SiteMapNode)Container.DataItem).ChildNodes %>' runat="server" EnableViewState="false">
+                                                <ItemTemplate>
+                                                    <li style='<%# IsVisible((SiteMapNode)Container.DataItem)==true?"display:block;":"display:none;"%>'>
+                                                        <div><!-- onmouseover="<%# "Show('childNodes" + DataBinder.Eval(Container.DataItem, "resourceKey") + "',this);"%>" onmouseout="<%# "Hide('childNodes" + DataBinder.Eval(Container.DataItem, "resourceKey") + "',this);"%>">-->
+                                                            <asp:HyperLink ID="HyperLink2" NavigateUrl='' runat="server" Visible='<%#IsVisible((SiteMapNode)Container.DataItem) %>'><img src="<%=ResolveUrl("~/images/management/arrow_right.gif") %>"/><%# HttpUtility.HtmlEncode(DataBinder.Eval(Container.DataItem, "Title").ToString())%></asp:HyperLink>
+                                                            <div id="<%#"childNodes" + DataBinder.Eval(Container.DataItem, "resourceKey")%>">
+                                                                <asp:Repeater ID="rptLevel2" DataSource='<%#((SiteMapNode)Container.DataItem).ChildNodes %>' runat="server" EnableViewState="false">
+                                                                    <HeaderTemplate>
+                                                                        <ul>
+                                                                    </HeaderTemplate>
+                                                                    <ItemTemplate>
+                                                                        <li style='<%# IsVisible((SiteMapNode)Container.DataItem)==true?"display:block;":"display:none;"%>'>
+                                                                            <asp:HyperLink ID="HyperLink3" NavigateUrl='<%#DataBinder.Eval(Container.DataItem, "Url") %>' runat="server" Visible='<%#IsVisible((SiteMapNode)Container.DataItem) %>'><%# HttpUtility.HtmlEncode(DataBinder.Eval(Container.DataItem, "Title").ToString())%></asp:HyperLink>
+                                                                        </li>
+                                                                    </ItemTemplate>
+                                                                    <FooterTemplate>
+                                                                        </ul>
+                                                                    </FooterTemplate>
+                                                                </asp:Repeater>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ItemTemplate>
+                                            </asp:Repeater>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ItemTemplate>
+                    </asp:Repeater>
+                    <asp:SiteMapDataSource ID="SiteMapDataSource1" SiteMapProvider="ManageSiteMap" runat="server" />
+                </ul>
+            </div>
+        </div>
+        </form>
+    </div>
+</body>
+<script type="text/javascript" language="javascript">
+    ResizePageManagement();
+</script>
+</html>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Home>
+  <Banner>
+    <Pic position="1" url="~/work">
+      <Position>1</Position>
+      <Url>~/work</Url>
+      <FilePath>~/images/sample1.jpg</FilePath>
+    </Pic>
+    <Pic position="2" url="~/work">
+      <Position>2</Position>
+      <Url>~/work</Url>
+      <FilePath>~/images/sample2.jpg</FilePath>
+    </Pic>
+    <Pic position="3" url="~/work">
+      <Position>3</Position>
+      <Url>~/work</Url>
+      <FilePath>~/images/sample3.jpg</FilePath>
+    </Pic>
+  </Banner>
+  <Galleries>
+    <Gallery>
+      <Position>1</Position>
+      <CategoryID>1</CategoryID>
+    </Gallery>
+    <Gallery>
+      <Position>2</Position>
+      <CategoryID>2</CategoryID>
+    </Gallery>
+    <Gallery>
+      <Position>3</Position>
+      <CategoryID>3</CategoryID>
+    </Gallery>
+    <Gallery>
+      <Position>4</Position>
+      <CategoryID>4</CategoryID>
+    </Gallery>
+  </Galleries>
+
+  <Categories>
+    <Category>
+      <ID>1</ID>
+      <Name>UI</Name>
+      <Logo>~/images/category_logo1.png</Logo>
+      <CPic>~/images/category1.png</CPic>
+    </Category>
+    <Category>
+      <ID>2</ID>
+      <Name>Icon</Name>
+      <Logo>~/images/category_logo2.png</Logo>
+      <CPic>~/images/category2.png</CPic>
+    </Category>
+    <Category>
+      <ID>3</ID>
+      <Name>Idea</Name>
+      <Logo>~/images/category_logo3.png</Logo>
+      <CPic>~/images/category3.png</CPic>
+    </Category>
+    <Category>
+      <ID>4</ID>
+      <Name>Animation</Name>
+      <Logo>~/images/category_logo4.png</Logo>
+      <CPic>~/images/category4.png</CPic>
+    </Category>
+  </Categories>
+</Home>

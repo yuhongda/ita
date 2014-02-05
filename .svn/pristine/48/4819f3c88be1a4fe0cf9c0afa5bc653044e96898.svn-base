@@ -1,0 +1,8 @@
+﻿<%@ page title="" language="C#" masterpagefile="~/Management/Manage.master" autoeventwireup="true" inherits="Management_Default, App_Web_l-fr62c8" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+
+</asp:Content>
+

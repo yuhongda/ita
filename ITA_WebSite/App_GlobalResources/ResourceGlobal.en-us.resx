@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Contact_Content1" xml:space="preserve">
+    <value>Coding in the f**king free world.</value>
+  </data>
+  <data name="Contact_Content2" xml:space="preserve">
+    <value>Drop me email here</value>
+  </data>
+  <data name="Contact_Content3" xml:space="preserve">
+    <value>Feel free to hit me up</value>
+  </data>
+  <data name="Contact_Content4" xml:space="preserve">
+    <value>Check out our studio web site</value>
+  </data>
+  <data name="Contact_Content5" xml:space="preserve">
+    <value>Follow me on Twitter</value>
+  </data>
+  <data name="Contact_Content6" xml:space="preserve">
+    <value>Follow me on Sina Weibo</value>
+  </data>
+  <data name="Contact_Title1" xml:space="preserve">
+    <value>Yu Hongda</value>
+  </data>
+  <data name="Contact_Title2" xml:space="preserve">
+    <value>silverage.y@gmail.com</value>
+  </data>
+  <data name="Contact_Title3" xml:space="preserve">
+    <value>(86) 158-1024-1025</value>
+  </data>
+  <data name="Contact_Title4" xml:space="preserve">
+    <value>itadesign.cn</value>
+  </data>
+  <data name="Contact_Title5" xml:space="preserve">
+    <value>twitter.com/yuhongda</value>
+  </data>
+  <data name="Contact_Title6" xml:space="preserve">
+    <value>weibo.com/yu619</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Coding In The F**king Free World.</value>
+  </data>
+  <data name="Edu_Content1" xml:space="preserve">
+    <value>Clouding Computing, Master</value>
+  </data>
+  <data name="Edu_Content2" xml:space="preserve">
+    <value>Bachelor's drgee, 'Excellent Graduates' at 2007</value>
+  </data>
+  <data name="Edu_Content3" xml:space="preserve">
+    <value>College English Test 6</value>
+  </data>
+  <data name="Edu_Title1" xml:space="preserve">
+    <value>Beijing University of Aeronautics and Astronautics</value>
+  </data>
+  <data name="Edu_Title2" xml:space="preserve">
+    <value>Beijing Institute Of Technology University</value>
+  </data>
+  <data name="Edu_Title3" xml:space="preserve">
+    <value>CET6</value>
+  </data>
+  <data name="END" xml:space="preserve">
+    <value>END</value>
+  </data>
+  <data name="Finished" xml:space="preserve">
+    <value>Finished.</value>
+  </data>
+  <data name="My_Story" xml:space="preserve">
+    <value>My Story</value>
+  </data>
+  <data name="Profile_1" xml:space="preserve">
+    <value>Front-End &amp; Back-End Developer</value>
+  </data>
+  <data name="Profile_2" xml:space="preserve">
+    <value>Beijing, China</value>
+  </data>
+  <data name="Profile_3" xml:space="preserve">
+    <value>Beijing Institute Of Technology University</value>
+  </data>
+  <data name="Profile_4" xml:space="preserve">
+    <value>Computer Science &amp; Technology</value>
+  </data>
+  <data name="Resume_Loading" xml:space="preserve">
+    <value>Resume Loading...</value>
+  </data>
+  <data name="Skills_Content1" xml:space="preserve">
+    <value>I love Front-End development because a good experience bring a great mood not only to users but also to myself</value>
+  </data>
+  <data name="Skills_Content2" xml:space="preserve">
+    <value>Over 4 years ASP.net development experience</value>
+  </data>
+  <data name="Skills_Content3" xml:space="preserve">
+    <value>Althought I'm new to iOS development, I already do a great job on it.</value>
+  </data>
+  <data name="Skills_Content32" xml:space="preserve">
+    <value>I'm still working hard on 'SwitchU', and I plan release it to market when the hardware get ready</value>
+  </data>
+  <data name="Skills_Content4" xml:space="preserve">
+    <value>My first job was work as Quality Assurancer in WYSE(China)</value>
+  </data>
+  <data name="Skills_Content42" xml:space="preserve">
+    <value>With these years development experience, I think I can do that even better.</value>
+  </data>
+  <data name="Skills_Title1" xml:space="preserve">
+    <value>Web Front-End Development</value>
+  </data>
+  <data name="Skills_Title2" xml:space="preserve">
+    <value>ASP.net Development</value>
+  </data>
+  <data name="Skills_Title3" xml:space="preserve">
+    <value>iOS Development</value>
+  </data>
+  <data name="Skills_Title4" xml:space="preserve">
+    <value>Quality Assurance</value>
+  </data>
+  <data name="Story_Content" xml:space="preserve">
+    <value>'SwitchU' is a WiFi &amp; Bluetooth switcher, witch enable you to remote control any devices that link to it</value>
+  </data>
+  <data name="Story_Content1" xml:space="preserve">
+    <value>Developed 1st version of 'SwitchU' by just couple of weeks learning</value>
+  </data>
+  <data name="Story_Content2" xml:space="preserve">
+    <value>Front-End Web Software Engineer</value>
+  </data>
+  <data name="Story_Content22" xml:space="preserve">
+    <value>Developed fabulous front-end application and libraries for each product of company</value>
+  </data>
+  <data name="Story_Content3" xml:space="preserve">
+    <value>'EXIF Reader' enable you view photo EXIF and GPS data in your Chrome</value>
+  </data>
+  <data name="Story_Content32" xml:space="preserve">
+    <value>Has over 14,000+ users</value>
+  </data>
+  <data name="Story_Content4" xml:space="preserve">
+    <value>Front-End &amp; Back-End Software Engineer</value>
+  </data>
+  <data name="Story_Content42" xml:space="preserve">
+    <value>Built “www.17vee.com” website based on ASP.Net (.Net Framework 3.5) technology</value>
+  </data>
+  <data name="Story_Content5" xml:space="preserve">
+    <value>From ASP.net 1.0 to 4.5</value>
+  </data>
+  <data name="Story_Content52" xml:space="preserve">
+    <value>Using SSH Framework to MVC</value>
+  </data>
+  <data name="Story_Content6" xml:space="preserve">
+    <value>Front-End &amp; Back-End Software Engineer</value>
+  </data>
+  <data name="Story_Content62" xml:space="preserve">
+    <value>Developed printer and scanner applications, which is based on .Net Framework, for Japan HQ and China</value>
+  </data>
+  <data name="Story_Content7" xml:space="preserve">
+    <value>Testing Engineer</value>
+  </data>
+  <data name="Story_Content72" xml:space="preserve">
+    <value>Built automation testing cases and developed testing program to run the testing cases</value>
+  </data>
+  <data name="Story_Title" xml:space="preserve">
+    <value>Build 'SwitchU' iOS App</value>
+  </data>
+  <data name="Story_Title1" xml:space="preserve">
+    <value>Learning iOS Development</value>
+  </data>
+  <data name="Story_Title2" xml:space="preserve">
+    <value>China Finance Online, Beijing, China</value>
+  </data>
+  <data name="Story_Title3" xml:space="preserve">
+    <value>Make 'EXIF Reader' for Google Chrome Extensions</value>
+  </data>
+  <data name="Story_Title4" xml:space="preserve">
+    <value>TechFaith, Beijing, China</value>
+  </data>
+  <data name="Story_Title5" xml:space="preserve">
+    <value>Working with ASP.net Technology &amp; Java for more than 4 years</value>
+  </data>
+  <data name="Story_Title6" xml:space="preserve">
+    <value>EPSON (China), Beijing, China</value>
+  </data>
+  <data name="Story_Title7" xml:space="preserve">
+    <value>WYSE (China), Beijing, China</value>
+  </data>
+  <data name="YuHongda" xml:space="preserve">
+    <value>Yu Hongda</value>
+  </data>
+</root>

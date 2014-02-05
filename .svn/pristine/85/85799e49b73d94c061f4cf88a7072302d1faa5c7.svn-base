@@ -1,0 +1,16 @@
+﻿<%@ page title="" language="C#" masterpagefile="~/Site.master" autoeventwireup="true" inherits="Customer, ITA_WebSite_deploy" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <script type="text/javascript">
+        $(function () {
+
+            
+        });
+    </script>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <div style=" text-align:center;">
+        <img src="images/customers.jpg" />
+    </div>
+</asp:Content>
+

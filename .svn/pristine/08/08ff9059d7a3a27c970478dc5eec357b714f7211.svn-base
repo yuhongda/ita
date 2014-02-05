@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="2" virtualPath="/ITA_WebSite/App_Browsers/" hash="6955885a" filehash="ffffd418bfb4ed67" flags="110000" assembly="ITA_WebSite_deploy" type="ASP.ApplicationBrowserCapabilitiesFactory">
+  <filedeps>
+    <filedep name="/ITA_WebSite/App_Browsers/ReWrite.browser" />
+  </filedeps>
+</preserve>
